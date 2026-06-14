@@ -1,129 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaskaran Dhiman - Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jaskaran Dhiman, PhD, P.Eng. — Bioresource engineer, environmental systems researcher, and engineering educator at McGill University." />
+  <meta name="author" content="Jaskaran Dhiman" />
+  <title>Jaskaran Dhiman, PhD, P.Eng. | Bioresource Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <div class="logo">
-                <h1>Jaskaran Dhiman</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2 class="hero-title">Welcome to My World</h2>
-                <p class="hero-subtitle">Developer • Creator • Problem Solver</p>
-                <p class="hero-description">
-                    I'm passionate about creating innovative solutions and bringing ideas to life through code.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-        </section>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Jaskaran Dhiman homepage">
+        <span class="brand-mark">JD</span>
+        <span class="brand-text">Jaskaran Dhiman</span>
+      </a>
 
-        <section id="about" class="about">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>
-                            Hello! I'm Jaskaran, a passionate developer who loves to create, learn, and share knowledge.
-                            I enjoy working on projects that challenge me and help me grow as a professional.
-                        </p>
-                        <p>
-                            When I'm not coding, you can find me exploring new technologies, contributing to open source,
-                            or working on personal projects that interest me.
-                        </p>
-                    </div>
-                    <div class="skills">
-                        <h3>Skills & Technologies</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">Git</span>
-                            <span class="skill-tag">HTML/CSS</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2 class="section-title">Featured Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3>Project One</h3>
-                        <p>Description of your first project. What technologies did you use? What problem did it solve?</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Code</a>
-                            <a href="#" class="project-link">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <h3>Project Two</h3>
-                        <p>Description of your second project. Highlight the key features and your role in the development.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Code</a>
-                            <a href="#" class="project-link">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <h3>Project Three</h3>
-                        <p>Description of your third project. What makes this project special or unique?</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Code</a>
-                            <a href="#" class="project-link">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#mentorship">Mentorship</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2 class="section-title">Let's Connect</h2>
-                <p class="contact-description">
-                    I'm always open to discussing new opportunities, interesting projects, or just having a chat!
-                </p>
-                <div class="contact-links">
-                    <a href="mailto:jaskaran.biosystems@gmail.com" class="contact-link">
-                        <span>Email</span>
-                    </a>
-                    <a href="https://github.com/jasdhiman" class="contact-link" target="_blank">
-                        <span>GitHub</span>
-                    </a>
-                    <a href="https://linkedin.com/in/jasdhiman" class="contact-link" target="_blank">
-                        <span>LinkedIn</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Bioresource Engineering • Environmental Systems • Engineering Education</p>
+          <h1>Jaskaran Dhiman, PhD, P.Eng.</h1>
+          <p class="hero-subtitle">
+            Bioresource engineer, environmental systems researcher, and educator working across sustainable agriculture,
+            soil and water quality, hydrological and climate modelling, wastewater reuse, geospatial analysis, and data-driven
+            environmental prediction.
+          </p>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Jaskaran Dhiman. All rights reserved.</p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="btn btn-primary" href="#research">Research</a>
+            <a class="btn btn-secondary" href="#teaching">Teaching</a>
+            <a class="btn btn-secondary" href="https://scholar.google.ca/citations?user=CSQb-n0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="btn btn-light" href="assets/Jaskaran_Dhiman_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          </div>
+
+          <p class="micro-note">
+            Faculty Lecturer, Department of Bioresource Engineering, McGill University
+          </p>
         </div>
-    </footer>
 
-    <script src="script.js"></script>
+        <aside class="hero-card" aria-label="Profile highlights">
+          <div class="profile-initials">JD</div>
+          <h2>Academic profile</h2>
+          <p>
+            Research and teaching at the intersection of environmental sustainability, water resources,
+            agricultural systems, modelling, and computational literacy.
+          </p>
+          <div class="quick-links">
+            <a href="https://www.mcgill.ca/bioeng/dhiman-jaskaran" target="_blank" rel="noopener">McGill Profile</a>
+            <a href="https://www.mcgill.ca/gradsupervision/jaskaran-dhiman" target="_blank" rel="noopener">Supervision Profile</a>
+            <a href="https://www.linkedin.com/in/jdhiman" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:jaskaran.dhiman@mcgill.ca">Email</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Academic highlights">
+      <div class="container stats-grid">
+        <div class="stat">
+          <span class="stat-number">28</span>
+          <span class="stat-label">Journal articles</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">23</span>
+          <span class="stat-label">Courses taught/co-taught since Fall 2023</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">1,077</span>
+          <span class="stat-label">Course enrolments since Fall 2023</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">2025</span>
+          <span class="stat-label">McGill teaching excellence award</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Environmental engineering, data-driven modelling, and student-centred teaching.</h2>
+        </div>
+        <div class="text-block">
+          <p>
+            I am a Faculty Lecturer in the Department of Bioresource Engineering at McGill University.
+            My academic work bridges environmental sustainability, bioresource engineering, agricultural water
+            management, hydrological and climate modelling, and applied data analytics.
+          </p>
+          <p>
+            My research has focused on safe wastewater reuse in agriculture, biochar and hydrogel-based soil amendments,
+            contaminant transport, water remediation, winter hydrology, climate impacts on agricultural systems,
+            geospatial analysis, and machine learning applications for environmental prediction.
+          </p>
+          <p>
+            As an educator, I teach across computing, statistics, simulation and modelling, GIS, data analytics,
+            physics, engineering science, and scientific communication. My teaching emphasizes clarity, applied examples,
+            hands-on practice, and a supportive learning environment for students working with challenging quantitative
+            and computational material.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section research">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>Research themes</h2>
+          <p>
+            My work connects experimental research, environmental modelling, geospatial tools, and applied data science
+            to support more sustainable and resilient agricultural and environmental systems.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Wastewater reuse, soil amendments, and remediation</h3>
+            <p>
+              Evaluating biochar, hydrogels, and other soil amendments to reduce contaminant mobility, support crop
+              production, and promote safer use of wastewater in agriculture.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Hydrological and climate modelling</h3>
+            <p>
+              Improving simulation of field- and watershed-scale processes, including winter hydrology, phosphorus loss,
+              frost-free days, climate-sensitive agricultural processes, and Great Lakes agricultural watersheds.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Geospatial analysis and remote sensing</h3>
+            <p>
+              Using satellite imagery, GIS, and spatial modelling to characterize hydrological variability, soil erosion
+              factors, land management, and environmental risk across agricultural landscapes.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Machine learning for environmental prediction</h3>
+            <p>
+              Applying statistical learning, predictive modelling, and data-driven methods to environmental systems,
+              including rainfall characteristics, soil health, climate impacts, and model improvement.
+            </p>
+          </article>
+        </div>
+
+        <div class="feature-panel">
+          <div>
+            <h3>Future research direction</h3>
+            <p>
+              My long-term goal is to build an applied, collaborative research program that integrates sustainable water
+              management, climate-resilient agricultural systems, geospatial intelligence, and accessible computational
+              tools for environmental decision-making.
+            </p>
+          </div>
+          <a class="inline-link" href="https://scholar.google.ca/citations?user=CSQb-n0AAAAJ&hl=en" target="_blank" rel="noopener">
+            View publications on Google Scholar →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section teaching">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Teaching</p>
+          <h2>Teaching that makes quantitative and computational material approachable.</h2>
+          <p>
+            My teaching is guided by clarity, structure, applied learning, kindness, and high expectations.
+            I aim to help students build confidence while developing transferable analytical and engineering skills.
+          </p>
+        </div>
+
+        <div class="teaching-grid">
+          <article class="teaching-card emphasis-card">
+            <h3>Teaching philosophy</h3>
+            <p>
+              Students learn most deeply when disciplinary foundations are paired with active engagement,
+              real-world relevance, and opportunities to apply ideas in meaningful contexts.
+            </p>
+          </article>
+
+          <article class="teaching-card">
+            <h3>Courses taught/co-taught</h3>
+            <ul class="clean-list">
+              <li>AEMA 310 Statistical Methods I</li>
+              <li>BREE 252 Computing for Engineers</li>
+              <li>AEMA 204 Data Analytics for Biosystems</li>
+              <li>BREE 501 Simulation and Modelling</li>
+              <li>BREE/ENVB 529 GIS for Natural Resource Management</li>
+              <li>AEPH 112/113 Introductory Physics</li>
+              <li>BREE 214 Geomatics</li>
+              <li>BREE 451/452/453 Seminar, Poster, and Scientific Writing</li>
+            </ul>
+          </article>
+
+          <article class="teaching-card">
+            <h3>Teaching innovation</h3>
+            <ul class="clean-list">
+              <li>Designed AEMA 204 Data Analytics for Biosystems.</li>
+              <li>Introduced live-script-based instruction in BREE 252.</li>
+              <li>Implemented MS Forms workflows for peer feedback in seminar courses.</li>
+              <li>Supports graduate attribute indicator tracking and TA workshops.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="quote-panel">
+          <blockquote>
+            “I want students to leave my courses with stronger analytical skills, greater confidence, and a clearer
+            sense of how their knowledge can be used for the benefit of society.”
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section publications">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2>Selected publications</h2>
+          <p>
+            Selected publications are shown below. For the most current publication list and citation information,
+            please visit my Google Scholar profile.
+          </p>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication">
+            <h3>Prediction of three vital rainfall characteristics: Advanced hybrid tree- or lazy-based learner?</h3>
+            <p>Khosravi, K., Farooque, A. A., Bateni, S. M., Jun, C., & Dhiman, J. <em>Results in Engineering</em>, 2025.</p>
+          </article>
+
+          <article class="publication">
+            <h3>Effect of biochar, hydrogel and soil liming on nutrient leaching in a coarse-textured soil</h3>
+            <p>Purkayshtha, J., Prasher, S., Afzal, M., Dhiman, J., & Nzediegwu, C. <em>Sustainability</em>, 2025.</p>
+          </article>
+
+          <article class="publication">
+            <h3>Evaluation of winter hydrology performance of three field-scale models</h3>
+            <p>Kaur, B., Dhiman, J., Rudra, R., Daggupati, P., Goel, P., Macrae, M., Prasher, S., & Shukla, R. <em>Journal of the ASABE</em>, 2024.</p>
+          </article>
+
+          <article class="publication">
+            <h3>A spatiotemporal variability in the C-factor: An analysis using high resolution satellite imagery</h3>
+            <p>Allataifeh, N., Rudra, R., Daggupati, P., Dhiman, J., Goel, P., & Prasher, S. <em>International Journal of Sediment Research</em>, 2024.</p>
+          </article>
+
+          <article class="publication">
+            <h3>Use of polyacrylamide superabsorbent polymers and plantain peel biochar to reduce heavy metal mobility and uptake by wastewater irrigated potato plants</h3>
+            <p>Dhiman, J., Prasher, S., ElSayed, E., Nzediegwu, C., Mawof, A., & Patel, R. <em>Transactions of the ASABE</em>, 2021.</p>
+          </article>
+
+          <article class="publication">
+            <h3>Removal of <em>Escherichia coli</em> from lake water in a biochar-amended biosand filtering system</h3>
+            <p>Guan, P., Prasher, S., Afzal, M., George, S., Ronholm, J., Dhiman, J., & Patel, R. <em>Ecological Engineering</em>, 2020.</p>
+          </article>
+        </div>
+
+        <div class="center-actions">
+          <a class="btn btn-primary" href="https://scholar.google.ca/citations?user=CSQb-n0AAAAJ&hl=en" target="_blank" rel="noopener">Full list on Google Scholar</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="mentorship" class="section mentorship">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Mentorship & Service</p>
+          <h2>Supporting students, programs, and academic communities.</h2>
+          <p>
+            My mentorship and service activities reflect a commitment to student development, inclusive learning
+            environments, professional engagement, and collaborative scholarship.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Student mentorship</h3>
+            <p>
+              I have mentored undergraduate and graduate projects in water treatment, nutrient leaching, phosphorus-loss
+              modelling, winter hydrology, satellite-based watershed analysis, machine learning, and environmental analytics.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Academic and professional service</h3>
+            <p>
+              Service roles include Graduate and Postdoctoral Mentor at McGill, IC-IMPACTS outreach and student engagement,
+              journal reviewing, speaker series organization, and contributions to departmental outreach and assessment.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Professional affiliations</h3>
+            <p>
+              Professional Engineers Ontario, American Society of Agricultural and Biological Engineers, and Canadian Society
+              for Bioengineering.
+            </p>
+          </article>
+        </div>
+
+        <div class="feature-panel">
+          <div>
+            <h3>Prospective students and collaborators</h3>
+            <p>
+              I welcome conversations with students and collaborators interested in sustainable agricultural systems,
+              environmental modelling, applied data analytics, GIS, water quality, and engineering education.
+            </p>
+          </div>
+          <a class="inline-link" href="https://www.mcgill.ca/gradsupervision/jaskaran-dhiman" target="_blank" rel="noopener">
+            McGill supervision profile →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect.</h2>
+          <p>
+            I am open to discussions about academic collaborations, research opportunities, teaching and curriculum
+            development, student mentorship, and faculty opportunities.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <a href="mailto:jaskaran.dhiman@mcgill.ca">jaskaran.dhiman@mcgill.ca</a>
+          <a href="https://www.mcgill.ca/bioeng/dhiman-jaskaran" target="_blank" rel="noopener">McGill University Profile</a>
+          <a href="https://www.mcgill.ca/gradsupervision/jaskaran-dhiman" target="_blank" rel="noopener">McGill Supervision Profile</a>
+          <a href="https://scholar.google.ca/citations?user=CSQb-n0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/jdhiman" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Jaskaran Dhiman. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
