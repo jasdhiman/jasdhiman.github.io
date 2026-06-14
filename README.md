@@ -43,3 +43,50 @@ If you do not want a CV button yet, remove this line from `index.html`:
 ## Notes
 
 The site is designed for academic/faculty applications and emphasizes research, teaching, publications, mentorship, service, and professional links.
+
+
+## Version 2 update
+
+This version adds a Background section with:
+- Professional experience at McGill University, University of Guelph, Government of Manitoba, and CLAAS India Pvt. Ltd.
+- Education/degrees
+- Courses taught at McGill University and University of Guelph
+
+
+## Version 3 update
+
+This version:
+- Adds data science to the top profile language.
+- Uses the phrase "use of data to develop climate-resilient agricultural practices."
+- Removes the word "data analysis" from the website copy.
+- Reformats courses taught with course numbers and nested sub-bullets.
+- Separates BREE 529 and ENVB 529, AEPH 112 and AEPH 113, and BREE 451, BREE 452, and BREE 453.
+
+
+## Version 4 update
+
+This version:
+- Adds a separate `publications.html` page.
+- Changes the main navigation Publications tab to open `publications.html`.
+- Replaces the hero Google Scholar button with a Publications button.
+- Moves Google Scholar to the side profile links alongside LinkedIn.
+- Includes all published journal articles from section 3.3.1 of the detailed academic CV, excluding the under-review item #28.
+- Includes the book chapter, conference proceedings, theses, and section 3.4 research presentations.
+
+
+## Version 5 update
+
+This version:
+- Adds `professional-service.html`.
+- Adds a Service tab in the main navigation.
+- Includes professional service, community service, professional affiliations, professional meetings/conferences, and international workshop organization.
+- Removes detailed CV section-number labels from `publications.html`.
+
+
+## Version 6 update
+
+This version:
+- Adds `teaching.html` as a separate teaching page.
+- Changes the Teaching navigation tab to open `teaching.html`.
+- Includes a Teaching Snapshot figure exported from the teaching dossier.
+- Adds a deduplicated invited talks and guest lectures section.

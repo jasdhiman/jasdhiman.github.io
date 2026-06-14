@@ -54,7 +54,7 @@ const observer = new IntersectionObserver(
 
 revealElements.forEach((el) => observer.observe(el));
 
-const sectionIds = ["about", "research", "teaching", "publications", "mentorship", "contact"];
+const sectionIds = ["about", "background", "research", "mentorship", "contact"];
 const navItems = Array.from(document.querySelectorAll(".nav-links a"));
 
 const sectionObserver = new IntersectionObserver(
