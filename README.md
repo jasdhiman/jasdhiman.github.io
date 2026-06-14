@@ -101,3 +101,13 @@ This version:
 - Adds McGill Graduate and Postdoctoral Support faculty mentor role.
 - Summarizes student mentorship experience without naming students.
 - Removes the main-page mentorship section and changes navigation to the separate page.
+
+
+## Version 8 update
+
+This version removes provenance/citation-style explanatory sentences from the public-facing website pages.
+
+
+## Version 9 update
+
+This version reduces the visual font size of the credentials "PhD, P.Eng." in the homepage hero title to 50% of the main name size.
