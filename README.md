@@ -90,3 +90,14 @@ This version:
 - Changes the Teaching navigation tab to open `teaching.html`.
 - Includes a Teaching Snapshot figure exported from the teaching dossier.
 - Adds a deduplicated invited talks and guest lectures section.
+
+
+## Version 7 update
+
+This version:
+- Makes the teaching-page statistics white on the dark background.
+- Retitles the teaching page as Teaching and curriculum development.
+- Adds `mentorship.html` as a separate mentorship page.
+- Adds McGill Graduate and Postdoctoral Support faculty mentor role.
+- Summarizes student mentorship experience without naming students.
+- Removes the main-page mentorship section and changes navigation to the separate page.

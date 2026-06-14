@@ -843,3 +843,22 @@ a {
     padding: 0.6rem;
   }
 }
+
+
+/* Version 7 refinements */
+.teaching-stats-grid,
+.teaching-stats-grid .stat,
+.teaching-stats-grid .stat-number,
+.teaching-stats-grid .stat-label {
+  color: #ffffff;
+}
+
+.teaching-stats-grid .stat-label {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+
+/* Mentorship page */
+.mentorship-page .publication-section:nth-child(even) {
+  background: #fff;
+}
